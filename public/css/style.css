@@ -1,0 +1,248 @@
+
+
+
+/* our project */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#button {
+    border: 2px solid black;
+}
+
+.bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 100%;
+
+}
+.con {
+    height: 100vh;
+}
+
+.headphones {
+    top: 10%;
+    left: 3%;
+    height: 80%;
+    position: absolute;
+}
+
+.text {
+    /* font-family: 'Gabarito', cursive; */
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Heebo', sans-serif;
+    position: absolute;
+    font-size: 140px;
+    left: 48%;
+    top: 25%;
+}
+.text-two {
+    font-family: 'Gabarito', cursive;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Heebo', sans-serif; */
+    position: absolute;
+    font-size: 140px;
+    left: 48%;
+    top: 42%;
+}
+
+.buttons {
+    position: absolute;
+    left: 47%;
+    top: 66%;
+}
+
+.btn {
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 45px;
+    font-size: 25px;
+    border-radius: 35px;
+    margin-left: 40px;
+}
+.btn-two {
+    background: rgba(255, 255, 255, 0.503);
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 45px;
+    font-size: 25px;
+    border-radius: 35px;
+    margin-left: 70px;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+.btn-two:hover {
+    background: black;
+    color: white;
+}
+
+.containerr {
+    padding-left: 2%;
+    height: 100%;
+    background: white;
+}
+
+.logo {
+    width: 7%;
+    position: absolute;
+    left: 1%;
+}
+
+.bg-color-r {
+    background-color: #cedcd266;
+}
+
+.bg-color-rb {
+    background-color: black;
+}
+
+.foot-logo {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+}
+
+.teko-font {
+    font-family: 'Teko', sans-serif;
+}
+
+.line {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.sm-btn:hover {
+    color: white;
+}
+.sm-btn-two:hover {
+    color: black;
+}
+
+.navbar-r {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.logo-r {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    left: 48%;
+}
+
+.nav-r {
+    margin: 0.6rem;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.1rem;
+    border-radius: 2%;
+}
+
+.subscribe-hover:hover {
+    background: rgb(82, 82, 82);
+    color: white;
+}
+
+.bg-magenda {
+    background: #cb9995;
+}
+
+.bg-golden {
+    background: #ccb294;
+}
+
+.bg-offwhite {
+    background: #f7ede2;
+}
+
+.bg-darkblue {
+    background: #3b4763;
+}
+
+.bg-darkpink {
+    background: #CAA1A4;
+}
+
+.bg-cream {
+    background: #F2EDE7;
+}
+
+.bg-darkestblue {
+
+    background: #26263D;
+}
+
+.login-buttons {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
+
+.login-btn {
+    background: black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 35px;
+    margin-left: 40px;
+}
+.login-btn-two {
+    background: rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 35px;
+    font-size: 15px;
+    border-radius: 35px;
+    margin-left: 30px;
+}
+
+.login-btn:hover {
+    background: white;
+    color: black;
+}
+
+.login-btn-two:hover {
+    background: white;
+    color: black;
+}

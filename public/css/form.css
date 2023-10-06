@@ -1,0 +1,217 @@
+/* Register form */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.bg-img {
+    position: absolute;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+    opacity: 20%;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 60px;
+    flex-direction: row;
+    width: 100vw;
+    height: 13.5vh;
+}
+
+.question {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    height: 38vh;
+    justify-content: center;
+}
+
+.question p {
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 30px;
+    color: #333;
+    width: 100%;
+} 
+
+.name {
+    color: crimson;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.container .content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.content .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: white;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.content .btn:hover {
+    background: crimson;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background: #333;
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+    margin-left: 91%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background: crimson;
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: white;
+    text-align: center;
+    width: 600px;
+    border: none;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-container form input ,select {
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.form-container form select option {
+    background: #eee;
+
+}
+
+.form-container form .form-btn {
+    background: #fbd0d0;
+    margin-top: 10px;
+    color: crimson;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+    color: white;
+    background: crimson;
+}
+
+.form-container form p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form-container form p a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.form-container form .error-msg {
+    padding: 5px;
+    margin: 10px 55px;
+    display: block;
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 80%;
+}
+
+.form-delete-confirm {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: white;
+    text-align: center;
+    width: 700px;
+    border: none;
+}
+
+.buttons-yes-no {
+    display: flex;
+    flex-direction: row;
+}
+.buttons-yes-no input {
+    width: 40px;
+}
+
+.yes-no {
+    background: #fbd0d0;
+    margin-top: 10px;
+    color: crimson;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.yes-no:hover {
+    color: white;
+    background: crimson;
+}
+.filler {
+    width: 20px;
+}
+
+.deleted-text {
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
